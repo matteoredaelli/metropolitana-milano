@@ -34,9 +34,9 @@
 http_get_metropolitana_milano(Request) :-
     http_parameters(Request,
             [
-             da(Da,   []),
-             a(A,   [])
+             from(From,   []),
+             to(To,   [])
             ]),
-    shortest_path(Da, A, Result),
-    prolog_to_json(json([da=Da,a=A,path=Result]), Json),
+    shortest_path(From, To, Result),
+    prolog_to_json(json([from=From,to=To,path=Result]), Json),
     reply_json(Json).

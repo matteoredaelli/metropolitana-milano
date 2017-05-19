@@ -13,6 +13,6 @@ for line in sys.stdin:
     da = fermate2.pop(0)
     while len(fermate2) > 0:
         a = fermate2.pop(0)
-        print("link('%s', '%s', %s)." % (da, a, linea))
+        print("edge('%s', '%s', %s)." % (da, a, linea))
         da = a
 
