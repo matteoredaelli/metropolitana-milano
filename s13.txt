@@ -1,1 +1,1 @@
-s13:Milano Bovisa, Milano Lancetti, Milano Porta Garibaldi, Milano Repubblica, Milano Porta Venezia, Milano Dateo, Milano Porta Vittoria, Milano Rogoredo, Locate Triulzi, Pieve Emanuele, Villamaggiore, Certosa di Pavia, Pavia
+s13:Bovisa, Lancetti, Porta Garibaldi, Repubblica, Porta Venezia, Dateo, Porta Vittoria, Rogoredo, Locate Triulzi, Pieve Emanuele, Villamaggiore, Certosa di Pavia, Pavia

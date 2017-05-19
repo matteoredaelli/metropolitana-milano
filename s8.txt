@@ -1,1 +1,1 @@
-s8:Lecco, Lecco Maggianico, Calolziocorte, Airuno, Olgiate, Cernusco-Merate, Osnago, Carnate-Usmate, Arcore, Monza, Sesto San Giovanni, Milano Greco Pirelli, Milano Porta Garibaldi
+s8:Lecco, Lecco Maggianico, Calolziocorte, Airuno, Olgiate, Cernusco-Merate, Osnago, Carnate-Usmate, Arcore, Monza, Sesto San Giovanni, Greco Pirelli, Porta Garibaldi

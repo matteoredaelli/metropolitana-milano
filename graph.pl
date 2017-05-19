@@ -1,3 +1,5 @@
+edge('Affori', 'Bovisa - Politecnico', s2).
+edge('Affori', 'Bovisa', s4).
 edge('Affori centro', 'Dergano', m3).
 edge('Affori FN', 'Affori centro', m3).
 edge('Airuno', 'Olgiate', s8).
@@ -18,9 +20,16 @@ edge('Bollate Nord', 'Bollate Centro', s1).
 edge('Bollate Nord', 'Bollate Centro', s3).
 edge('Bonola', 'San Leonardo', m1).
 edge('Borgolombardo', 'S. Giuliano Milanese', s1).
+edge('Bovisa', 'Domodossola', s3).
+edge('Bovisa', 'Domodossola', s4).
+edge('Bovisa', 'Lancetti', s1).
+edge('Bovisa', 'Lancetti', s13).
+edge('Bovisa - Politecnico', 'Lancetti', s2).
 edge('Bovisio Masciago - Mombello', 'Varedo', s2).
 edge('Bovisio Masciago', 'Varedo', s4).
 edge('Brenta', 'Corvetto', m3).
+edge('Bruzzano', 'Affori', s2).
+edge('Bruzzano', 'Affori', s4).
 edge('Buonarroti', 'Amendola Fiera', m1).
 edge('Bussero', 'Villa Pompea', m2).
 edge('Busto Arsizio', 'Legnano', s5).
@@ -58,6 +67,9 @@ edge('Ceriano Laghetto-Solaro', 'Ceriano Laghetto-Groane', s9).
 edge('Cernusco-Merate', 'Osnago', s8).
 edge('Cernusco', 'Villa Fiorita', m2).
 edge('Certosa di Pavia', 'Pavia', s13).
+edge('Certosa', 'Rho FieraMilano', s11).
+edge('Certosa', 'Villapizzone', s5).
+edge('Certosa', 'Villapizzone', s6).
 edge('Cesano Boscone', 'Trezzano sul Naviglio', s9).
 edge('Cesano Maderno', 'Bovisio Masciago - Mombello', s2).
 edge('Cesano Maderno', 'Bovisio Masciago', s4).
@@ -75,22 +87,32 @@ edge('Como San Giovanni', 'Albate Camerlata', s11).
 edge('Conciliazione', 'Pagano', m1).
 edge('Corbetta S. Stefano', 'Vittuone', s6).
 edge('Cordusio', 'Cairoli', m1).
-edge('Cormano-Cusano', 'Milano Bruzzano', s2).
-edge('Cormano-Cusano', 'Milano Bruzzano', s4).
+edge('Cormano-Cusano', 'Bruzzano', s2).
+edge('Cormano-Cusano', 'Bruzzano', s4).
 edge('Corsico', 'Cesano Boscone', s9).
 edge('Corvetto', 'Porto di Mare', m3).
 edge('Costa Masnaga', 'Cassago-Nibionno-Bulciago', s7).
 edge('Crescenzago', 'Cascina Gobba', m2).
 edge('Crocetta', 'Porta Romana', m3).
 edge('Cucciago', 'Cantù Cermenate', s11).
+edge('Dateo', 'Porta Vittoria', s1).
+edge('Dateo', 'Porta Vittoria', s13).
+edge('Dateo', 'Porta Vittoria', s2).
+edge('Dateo', 'Porta Vittoria', s5).
+edge('Dateo', 'Porta Vittoria', s6).
 edge('De Angeli', 'Gambara', m1).
 edge('Dergano', 'Maciachini', m3).
 edge('Desio', 'Lissone', s11).
 edge('Desio', 'Lissone', s9).
+edge('Domodossola', 'Cadorna', s3).
+edge('Domodossola', 'Cadorna', s4).
 edge('Domodossola FNM', 'Tre torri', m5).
 edge('Duomo', 'Cordusio', m1).
 edge('Duomo', 'Missori', m3).
 edge('Famagosta', 'Romolo', m2).
+edge('Forlanini', 'Porta Romana', s9).
+edge('Forlanini', 'Segrate', s5).
+edge('Forlanini', 'Segrate', s6).
 edge('Gaggiano', 'Albairate - Vermezzo', s9).
 edge('Gallarate', 'Busto Arsizio', s5).
 edge('Gambara', 'Bande Nere', m1).
@@ -103,11 +125,21 @@ edge('Gerusalemme', 'Domodossola FNM', m5).
 edge('Gioia', 'Milano Centrale', m2).
 edge('Gorgonzola', 'Cascina Antonietta', m2).
 edge('Gorla', 'Turro', m1).
+edge('Greco Pirelli', 'Lambrate', s9).
+edge('Greco Pirelli', 'Porta Garibaldi', s11).
+edge('Greco Pirelli', 'Porta Garibaldi', s7).
+edge('Greco Pirelli', 'Porta Garibaldi', s8).
 edge('Inganni', 'Bisceglie', m1).
 edge('Isola', 'Porta Garibaldi', m5).
 edge('Istria', 'Marche', m5).
+edge('Lambrate', 'Forlanini', s9).
 edge('Lambrate', 'Udine', m2).
 edge('Lampugnano', 'Uruguay', m1).
+edge('Lancetti', 'Porta Garibaldi', s1).
+edge('Lancetti', 'Porta Garibaldi', s13).
+edge('Lancetti', 'Porta Garibaldi', s2).
+edge('Lancetti', 'Porta Garibaldi', s5).
+edge('Lancetti', 'Porta Garibaldi', s6).
 edge('Lanza', 'Moscova', m2).
 edge('Lecco', 'Lecco Maggianico', s8).
 edge('Lecco Maggianico', 'Calolziocorte', s8).
@@ -131,69 +163,7 @@ edge('Meda', 'Seveso', s2).
 edge('Melegnano', 'S. Zenone al Lambro', s1).
 edge('Melzo', 'Pozzuolo Martesana', s5).
 edge('Melzo', 'Pozzuolo Martesana', s6).
-edge('Milano Affori', 'Milano Bovisa - Politecnico', s2).
-edge('Milano Affori', 'Milano Bovisa', s4).
-edge('Milano Bovisa', 'Milano Domodossola', s3).
-edge('Milano Bovisa', 'Milano Domodossola', s4).
-edge('Milano Bovisa', 'Milano Lancetti', s1).
-edge('Milano Bovisa', 'Milano Lancetti', s13).
-edge('Milano Bovisa - Politecnico', 'Milano Lancetti', s2).
-edge('Milano Bruzzano', 'Milano Affori', s2).
-edge('Milano Bruzzano', 'Milano Affori', s4).
 edge('Milano Centrale', 'Caiazzo', m2).
-edge('Milano Certosa', 'Milano Villapizzone', s5).
-edge('Milano Certosa', 'Milano Villapizzone', s6).
-edge('Milano Certosa', 'Rho FieraMilano', s11).
-edge('Milano Dateo', 'Milano Porta Vittoria', s1).
-edge('Milano Dateo', 'Milano Porta Vittoria', s13).
-edge('Milano Dateo', 'Milano Porta Vittoria', s2).
-edge('Milano Dateo', 'Milano Porta Vittoria', s6).
-edge('Milano Dateo', 'Milano Pta Vittoria', s5).
-edge('Milano Domodossola', 'Milano Cadorna', s3).
-edge('Milano Domodossola', 'Milano Cadorna', s4).
-edge('Milano Forlanini', 'Milano Porta Romana', s9).
-edge('Milano Forlanini', 'Segrate', s5).
-edge('Milano Forlanini', 'Segrate', s6).
-edge('Milano Greco Pirelli', 'Milano Lambrate', s9).
-edge('Milano Greco Pirelli', 'Milano Porta Garibaldi', s11).
-edge('Milano Greco Pirelli', 'Milano Porta Garibaldi', s7).
-edge('Milano Greco Pirelli', 'Milano Porta Garibaldi', s8).
-edge('Milano Lambrate', 'Milano Forlanini', s9).
-edge('Milano Lancetti', 'Milano Porta Garibaldi', s1).
-edge('Milano Lancetti', 'Milano Porta Garibaldi', s13).
-edge('Milano Lancetti', 'Milano Porta Garibaldi', s2).
-edge('Milano Lancetti', 'Milano Porta Garibaldi', s6).
-edge('Milano Lancetti', 'Milano Pta Garibaldi', s5).
-edge('Milano Porta Garibaldi', 'Milano Repubblica', s1).
-edge('Milano Porta Garibaldi', 'Milano Repubblica', s13).
-edge('Milano Porta Garibaldi', 'Milano Repubblica', s2).
-edge('Milano Porta Garibaldi', 'Milano Repubblica', s6).
-edge('Milano Porta Garibaldi', 'Milano Villapizzone', s11).
-edge('Milano Porta Romana', 'Romolo', s9).
-edge('Milano Porta Venezia', 'Milano Dateo', s1).
-edge('Milano Porta Venezia', 'Milano Dateo', s13).
-edge('Milano Porta Venezia', 'Milano Dateo', s2).
-edge('Milano Porta Venezia', 'Milano Dateo', s6).
-edge('Milano Porta Vittoria', 'Milano Forlanini', s6).
-edge('Milano Porta Vittoria', 'Milano Rogoredo', s1).
-edge('Milano Porta Vittoria', 'Milano Rogoredo', s13).
-edge('Milano Porta Vittoria', 'Milano Rogoredo', s2).
-edge('Milano Pta Garibaldi', 'Milano Repubblica', s5).
-edge('Milano Pta Venezia', 'Milano Dateo', s5).
-edge('Milano Pta Vittoria', 'Milano Forlanini', s5).
-edge('Milano Quarto Oggiaro', 'Milano Bovisa', s1).
-edge('Milano Quarto Oggiaro', 'Milano Bovisa', s3).
-edge('Milano Repubblica', 'Milano Porta Venezia', s1).
-edge('Milano Repubblica', 'Milano Porta Venezia', s13).
-edge('Milano Repubblica', 'Milano Porta Venezia', s2).
-edge('Milano Repubblica', 'Milano Porta Venezia', s6).
-edge('Milano Repubblica', 'Milano Pta Venezia', s5).
-edge('Milano Rogoredo', 'Locate Triulzi', s13).
-edge('Milano Rogoredo', 'S. Donato Milanese', s1).
-edge('Milano San Cristoforo', 'Corsico', s9).
-edge('Milano Villapizzone', 'Milano Certosa', s11).
-edge('Milano Villapizzone', 'Milano Lancetti', s5).
-edge('Milano Villapizzone', 'Milano Lancetti', s6).
 edge('Missori', 'Crocetta', m3).
 edge('Molino Dorino', 'Pero', m1).
 edge('Molteno', 'Costa Masnaga', s7).
@@ -206,8 +176,8 @@ edge('Monza', 'Sesto San Giovanni', s9).
 edge('Monza Sobborghi', 'Monza', s7).
 edge('Moscova', 'Porta Garibaldi', m2).
 edge('Novara', 'Trecate', s6).
-edge('Novate Milanese', 'Milano Quarto Oggiaro', s1).
-edge('Novate Milanese', 'Milano Quarto Oggiaro', s3).
+edge('Novate Milanese', 'Quarto Oggiaro', s1).
+edge('Novate Milanese', 'Quarto Oggiaro', s3).
 edge('Oggiono', 'Molteno', s7).
 edge('Olgiate', 'Cernusco-Merate', s8).
 edge('Osnago', 'Carnate-Usmate', s8).
@@ -229,8 +199,25 @@ edge('Pioltello', 'Vignate', s6).
 edge('Ponale', 'Bicocca', m5).
 edge('Porta Garibaldi', 'Gioia', m2).
 edge('Porta Garibaldi', 'Monumentale', m5).
+edge('Porta Garibaldi', 'Repubblica', s1).
+edge('Porta Garibaldi', 'Repubblica', s13).
+edge('Porta Garibaldi', 'Repubblica', s2).
+edge('Porta Garibaldi', 'Repubblica', s5).
+edge('Porta Garibaldi', 'Repubblica', s6).
+edge('Porta Garibaldi', 'Villapizzone', s11).
 edge('Porta Genova', 'Sant\'Agostino', m2).
 edge('Porta Romana', 'Lodi T.I.B.B. (P.ta Romana FS)', m3).
+edge('Porta Romana', 'Romolo', s9).
+edge('Porta Venezia', 'Dateo', s1).
+edge('Porta Venezia', 'Dateo', s13).
+edge('Porta Venezia', 'Dateo', s2).
+edge('Porta Venezia', 'Dateo', s5).
+edge('Porta Venezia', 'Dateo', s6).
+edge('Porta Vittoria', 'Forlanini', s5).
+edge('Porta Vittoria', 'Forlanini', s6).
+edge('Porta Vittoria', 'Rogoredo', s1).
+edge('Porta Vittoria', 'Rogoredo', s13).
+edge('Porta Vittoria', 'Rogoredo', s2).
 edge('Portello', 'Lotto', m5).
 edge('Porto di Mare', 'Rogoredo', m3).
 edge('Pozzuolo Martesana', 'Trecella', s5).
@@ -239,19 +226,29 @@ edge('Precotto', 'Gorla', m1).
 edge('Pregnana Milanese', 'Rho', s6).
 edge('Primaticcio', 'Inganni', m1).
 edge('QT8', 'Lampugnano', m1).
+edge('Quarto Oggiaro', 'Bovisa', s1).
+edge('Quarto Oggiaro', 'Bovisa', s3).
 edge('Renate-Veduggio', 'Besana', s7).
+edge('Repubblica', 'Porta Venezia', s1).
+edge('Repubblica', 'Porta Venezia', s13).
+edge('Repubblica', 'Porta Venezia', s2).
+edge('Repubblica', 'Porta Venezia', s5).
+edge('Repubblica', 'Porta Venezia', s6).
 edge('Repubblica', 'Turati', m3).
-edge('Rho FieraMilano', 'Milano Certosa', s5).
-edge('Rho FieraMilano', 'Milano Certosa', s6).
+edge('Rho FieraMilano', 'Certosa', s5).
+edge('Rho FieraMilano', 'Certosa', s6).
 edge('Rho FieraMilano', 'Rho', s11).
 edge('Rho', 'Rho FieraMilano', s5).
 edge('Rho', 'Rho FieraMilano', s6).
+edge('Rogoredo', 'Locate Triulzi', s13).
 edge('Rogoredo', 'San Donato', m3).
-edge('Romolo', 'Milano San Cristoforo', s9).
+edge('Rogoredo', 'S. Donato Milanese', s1).
 edge('Romolo', 'Porta Genova', m2).
+edge('Romolo', 'San Cristoforo', s9).
 edge('Rovereto', 'Pasteur', m1).
 edge('Sala al Barro-Galbiate', 'Oggiono', s7).
 edge('San Babila', 'Duomo', m1).
+edge('San Cristoforo', 'Corsico', s9).
 edge('San Leonardo', 'Molino Dorino', m1).
 edge('San Siro Ippodromo', 'San Siro Stadio', m5).
 edge('Sant\'Agostino', 'Sant\'Ambrogio', m2).
@@ -271,10 +268,10 @@ edge('Seregno', 'Desio', s9).
 edge('Sesto I Maggio', 'Sesto Rondò', m1).
 edge('Sesto Marelli', 'Villa S. Giovanni', m1).
 edge('Sesto Rondò', 'Sesto Marelli', m1).
-edge('Sesto San Giovanni', 'Milano Greco Pirelli', s11).
-edge('Sesto San Giovanni', 'Milano Greco Pirelli', s7).
-edge('Sesto San Giovanni', 'Milano Greco Pirelli', s8).
-edge('Sesto San Giovanni', 'Milano Greco Pirelli', s9).
+edge('Sesto San Giovanni', 'Greco Pirelli', s11).
+edge('Sesto San Giovanni', 'Greco Pirelli', s7).
+edge('Sesto San Giovanni', 'Greco Pirelli', s8).
+edge('Sesto San Giovanni', 'Greco Pirelli', s9).
 edge('Seveso Baruccana', 'Seregno', s9).
 edge('Seveso', 'Cesano Maderno', s2).
 edge('Seveso', 'Cesano Maderno', s4).
@@ -302,6 +299,9 @@ edge('Vignate', 'Melzo', s5).
 edge('Vignate', 'Melzo', s6).
 edge('Villa Fiorita', 'Cassina de\' Pecchi', m2).
 edge('Villamaggiore', 'Certosa di Pavia', s13).
+edge('Villapizzone', 'Certosa', s11).
+edge('Villapizzone', 'Lancetti', s5).
+edge('Villapizzone', 'Lancetti', s6).
 edge('Villa Pompea', 'Gorgonzola', m2).
 edge('Villa Raverio', 'Carate-Calò', s7).
 edge('Villasanta', 'Monza Sobborghi', s7).
@@ -313,6 +313,8 @@ edge('Zara', 'Isola', m5).
 edge('Zara', 'Sondrio', m3).
 station('Affori centro', m3).
 station('Affori FN', m3).
+station('Affori', s2).
+station('Affori', s4).
 station('Airuno', s8).
 station('Albairate - Vermezzo', s9).
 station('Albate Camerlata', s11).
@@ -333,9 +335,16 @@ station('Bollate Nord', s1).
 station('Bollate Nord', s3).
 station('Bonola', m1).
 station('Borgolombardo', s1).
+station('Bovisa - Politecnico', s2).
+station('Bovisa', s1).
+station('Bovisa', s13).
+station('Bovisa', s3).
+station('Bovisa', s4).
 station('Bovisio Masciago - Mombello', s2).
 station('Bovisio Masciago', s4).
 station('Brenta', m3).
+station('Bruzzano', s2).
+station('Bruzzano', s4).
 station('Buonarroti', m1).
 station('Bussero', m2).
 station('Busto Arsizio', s5).
@@ -343,6 +352,8 @@ station('Buttafava', s7).
 station('Cabiate', s2).
 station('Cadorna', m1).
 station('Cadorna', m2).
+station('Cadorna', s3).
+station('Cadorna', s4).
 station('Cà Granda', m5).
 station('Caiazzo', m2).
 station('Cairoli', m1).
@@ -373,6 +384,9 @@ station('Ceriano Laghetto-Solaro', s9).
 station('Cernusco', m2).
 station('Cernusco-Merate', s8).
 station('Certosa di Pavia', s13).
+station('Certosa', s11).
+station('Certosa', s5).
+station('Certosa', s6).
 station('Cesano Boscone', s9).
 station('Cesano Maderno-Groane', s9).
 station('Cesano Maderno', s2).
@@ -399,15 +413,25 @@ station('Costa Masnaga', s7).
 station('Crescenzago', m2).
 station('Crocetta', m3).
 station('Cucciago', s11).
+station('Dateo', s1).
+station('Dateo', s13).
+station('Dateo', s2).
+station('Dateo', s5).
+station('Dateo', s6).
 station('De Angeli', m1).
 station('Dergano', m3).
 station('Desio', s11).
 station('Desio', s9).
 station('Domodossola FNM', m5).
+station('Domodossola', s3).
+station('Domodossola', s4).
 station('Duomo', m1).
 station('Duomo', m3).
 station('Famagosta', m2).
 station('Famagosta', m2).
+station('Forlanini', s5).
+station('Forlanini', s6).
+station('Forlanini', s9).
 station('Gaggiano', s9).
 station('Gallarate', s5).
 station('Gambara', m1).
@@ -421,11 +445,21 @@ station('Gessate', m2).
 station('Gioia', m2).
 station('Gorgonzola', m2).
 station('Gorla', m1).
+station('Greco Pirelli', s11).
+station('Greco Pirelli', s7).
+station('Greco Pirelli', s8).
+station('Greco Pirelli', s9).
 station('Inganni', m1).
 station('Isola', m5).
 station('Istria', m5).
 station('Lambrate', m2).
+station('Lambrate', s9).
 station('Lampugnano', m1).
+station('Lancetti', s1).
+station('Lancetti', s13).
+station('Lancetti', s2).
+station('Lancetti', s5).
+station('Lancetti', s6).
 station('Lanza', m2).
 station('Lecco Maggianico', s8).
 station('Lecco', s7).
@@ -450,74 +484,7 @@ station('Meda', s2).
 station('Melegnano', s1).
 station('Melzo', s5).
 station('Melzo', s6).
-station('Milano Affori', s2).
-station('Milano Affori', s4).
-station('Milano Bovisa - Politecnico', s2).
-station('Milano Bovisa', s1).
-station('Milano Bovisa', s13).
-station('Milano Bovisa', s3).
-station('Milano Bovisa', s4).
-station('Milano Bruzzano', s2).
-station('Milano Bruzzano', s4).
-station('Milano Cadorna', s3).
-station('Milano Cadorna', s4).
 station('Milano Centrale', m2).
-station('Milano Certosa', s11).
-station('Milano Certosa', s5).
-station('Milano Certosa', s6).
-station('Milano Dateo', s1).
-station('Milano Dateo', s13).
-station('Milano Dateo', s2).
-station('Milano Dateo', s5).
-station('Milano Dateo', s6).
-station('Milano Domodossola', s3).
-station('Milano Domodossola', s4).
-station('Milano Forlanini', s5).
-station('Milano Forlanini', s6).
-station('Milano Forlanini', s9).
-station('Milano Greco Pirelli', s11).
-station('Milano Greco Pirelli', s7).
-station('Milano Greco Pirelli', s8).
-station('Milano Greco Pirelli', s9).
-station('Milano Lambrate', s9).
-station('Milano Lancetti', s1).
-station('Milano Lancetti', s13).
-station('Milano Lancetti', s2).
-station('Milano Lancetti', s5).
-station('Milano Lancetti', s6).
-station('Milano Porta Garibaldi', s1).
-station('Milano Porta Garibaldi', s11).
-station('Milano Porta Garibaldi', s13).
-station('Milano Porta Garibaldi', s2).
-station('Milano Porta Garibaldi', s6).
-station('Milano Porta Garibaldi', s7).
-station('Milano Porta Garibaldi', s8).
-station('Milano Porta Romana', s9).
-station('Milano Porta Venezia', s1).
-station('Milano Porta Venezia', s13).
-station('Milano Porta Venezia', s2).
-station('Milano Porta Venezia', s6).
-station('Milano Porta Vittoria', s1).
-station('Milano Porta Vittoria', s13).
-station('Milano Porta Vittoria', s2).
-station('Milano Porta Vittoria', s6).
-station('Milano Pta Garibaldi', s5).
-station('Milano Pta Venezia', s5).
-station('Milano Pta Vittoria', s5).
-station('Milano Quarto Oggiaro', s1).
-station('Milano Quarto Oggiaro', s3).
-station('Milano Repubblica', s1).
-station('Milano Repubblica', s13).
-station('Milano Repubblica', s2).
-station('Milano Repubblica', s5).
-station('Milano Repubblica', s6).
-station('Milano Rogoredo', s1).
-station('Milano Rogoredo', s13).
-station('Milano Rogoredo', s2).
-station('Milano San Cristoforo', s9).
-station('Milano Villapizzone', s11).
-station('Milano Villapizzone', s5).
-station('Milano Villapizzone', s6).
 station('Missori', m3).
 station('Molino Dorino', m1).
 station('Molteno', s7).
@@ -554,8 +521,27 @@ station('Pioltello', s6).
 station('Ponale', m5).
 station('Porta Garibaldi', m2).
 station('Porta Garibaldi', m5).
+station('Porta Garibaldi', s1).
+station('Porta Garibaldi', s11).
+station('Porta Garibaldi', s13).
+station('Porta Garibaldi', s2).
+station('Porta Garibaldi', s5).
+station('Porta Garibaldi', s6).
+station('Porta Garibaldi', s7).
+station('Porta Garibaldi', s8).
 station('Porta Genova', m2).
 station('Porta Romana', m3).
+station('Porta Romana', s9).
+station('Porta Venezia', s1).
+station('Porta Venezia', s13).
+station('Porta Venezia', s2).
+station('Porta Venezia', s5).
+station('Porta Venezia', s6).
+station('Porta Vittoria', s1).
+station('Porta Vittoria', s13).
+station('Porta Vittoria', s2).
+station('Porta Vittoria', s5).
+station('Porta Vittoria', s6).
 station('Portello', m5).
 station('Porto di Mare', m3).
 station('Pozzuolo Martesana', s5).
@@ -564,8 +550,15 @@ station('Precotto', m1).
 station('Pregnana Milanese', s6).
 station('Primaticcio', m1).
 station('QT8', m1).
+station('Quarto Oggiaro', s1).
+station('Quarto Oggiaro', s3).
 station('Renate-Veduggio', s7).
 station('Repubblica', m3).
+station('Repubblica', s1).
+station('Repubblica', s13).
+station('Repubblica', s2).
+station('Repubblica', s5).
+station('Repubblica', s6).
 station('Rho Fiera', m1).
 station('Rho FieraMilano', s11).
 station('Rho FieraMilano', s5).
@@ -574,11 +567,15 @@ station('Rho', s11).
 station('Rho', s5).
 station('Rho', s6).
 station('Rogoredo', m3).
+station('Rogoredo', s1).
+station('Rogoredo', s13).
+station('Rogoredo', s2).
 station('Romolo', m2).
 station('Romolo', s9).
 station('Rovereto', m1).
 station('Sala al Barro-Galbiate', s7).
 station('San Babila', m1).
+station('San Cristoforo', s9).
 station('San Donato', m3).
 station('San Leonardo', m1).
 station('San Siro Ippodromo', m5).
@@ -633,6 +630,9 @@ station('Vignate', s5).
 station('Vignate', s6).
 station('Villa Fiorita', m2).
 station('Villamaggiore', s13).
+station('Villapizzone', s11).
+station('Villapizzone', s5).
+station('Villapizzone', s6).
 station('Villa Pompea', m2).
 station('Villa Raverio', s7).
 station('Villasanta', s7).
