@@ -169,10 +169,10 @@ edge('Molino Dorino', 'Pero', m1).
 edge('Molteno', 'Costa Masnaga', s7).
 edge('Montenapoleone', 'Duomo', m3).
 edge('Monumentale', 'Cenisio', m5).
-edge('Monza', 'Sesto San Giovanni', s11).
-edge('Monza', 'Sesto San Giovanni', s7).
-edge('Monza', 'Sesto San Giovanni', s8).
-edge('Monza', 'Sesto San Giovanni', s9).
+edge('Monza', 'Sesto FS (I Maggio)', s11).
+edge('Monza', 'Sesto FS (I Maggio)', s7).
+edge('Monza', 'Sesto FS (I Maggio)', s8).
+edge('Monza', 'Sesto FS (I Maggio)', s9).
 edge('Monza Sobborghi', 'Monza', s7).
 edge('Moscova', 'Porta Garibaldi', m2).
 edge('Novara', 'Trecate', s6).
@@ -265,13 +265,13 @@ edge('Segrate', 'Pioltello', s5).
 edge('Segrate', 'Pioltello', s6).
 edge('Seregno', 'Desio', s11).
 edge('Seregno', 'Desio', s9).
-edge('Sesto I Maggio', 'Sesto Rondò', m1).
+edge('Sesto FS (I Maggio)', 'Greco Pirelli', s11).
+edge('Sesto FS (I Maggio)', 'Greco Pirelli', s7).
+edge('Sesto FS (I Maggio)', 'Greco Pirelli', s8).
+edge('Sesto FS (I Maggio)', 'Greco Pirelli', s9).
+edge('Sesto FS (I Maggio)', 'Sesto Rondò', m1).
 edge('Sesto Marelli', 'Villa S. Giovanni', m1).
 edge('Sesto Rondò', 'Sesto Marelli', m1).
-edge('Sesto San Giovanni', 'Greco Pirelli', s11).
-edge('Sesto San Giovanni', 'Greco Pirelli', s7).
-edge('Sesto San Giovanni', 'Greco Pirelli', s8).
-edge('Sesto San Giovanni', 'Greco Pirelli', s9).
 edge('Seveso Baruccana', 'Seregno', s9).
 edge('Seveso', 'Cesano Maderno', s2).
 edge('Seveso', 'Cesano Maderno', s4).
@@ -594,13 +594,13 @@ station('Segrate', s5).
 station('Segrate', s6).
 station('Seregno', s11).
 station('Seregno', s9).
-station('Sesto I Maggio', m1).
+station('Sesto FS (I Maggio)', m1).
+station('Sesto FS (I Maggio)', s11).
+station('Sesto FS (I Maggio)', s7).
+station('Sesto FS (I Maggio)', s8).
+station('Sesto FS (I Maggio)', s9).
 station('Sesto Marelli', m1).
 station('Sesto Rondò', m1).
-station('Sesto San Giovanni', s11).
-station('Sesto San Giovanni', s7).
-station('Sesto San Giovanni', s8).
-station('Sesto San Giovanni', s9).
 station('Seveso Baruccana', s9).
 station('Seveso', s2).
 station('Seveso', s4).
