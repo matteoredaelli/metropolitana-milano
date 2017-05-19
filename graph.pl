@@ -110,7 +110,7 @@ edge('Domodossola FNM', 'Tre torri', m5).
 edge('Duomo', 'Cordusio', m1).
 edge('Duomo', 'Missori', m3).
 edge('Famagosta', 'Romolo', m2).
-edge('Forlanini', 'Porta Romana', s9).
+edge('Forlanini', 'Lodi T.I.B.B. (P.ta Romana FS)', s9).
 edge('Forlanini', 'Segrate', s5).
 edge('Forlanini', 'Segrate', s6).
 edge('Gaggiano', 'Albairate - Vermezzo', s9).
@@ -150,6 +150,7 @@ edge('Lissone', 'Monza', s11).
 edge('Lissone', 'Monza', s9).
 edge('Locate Triulzi', 'Pieve Emanuele', s13).
 edge('Lodi T.I.B.B. (P.ta Romana FS)', 'Brenta', m3).
+edge('Lodi T.I.B.B. (P.ta Romana FS)', 'Romolo', s9).
 edge('Loreto', 'Lima', m1).
 edge('Loreto', 'Piola', m2).
 edge('Lotto', 'QT8', m1).
@@ -207,7 +208,6 @@ edge('Porta Garibaldi', 'Repubblica', s6).
 edge('Porta Garibaldi', 'Villapizzone', s11).
 edge('Porta Genova', 'Sant\'Agostino', m2).
 edge('Porta Romana', 'Lodi T.I.B.B. (P.ta Romana FS)', m3).
-edge('Porta Romana', 'Romolo', s9).
 edge('Porta Venezia', 'Dateo', s1).
 edge('Porta Venezia', 'Dateo', s13).
 edge('Porta Venezia', 'Dateo', s2).
@@ -471,6 +471,7 @@ station('Lissone', s9).
 station('Locate Triulzi', s13).
 station('Lodi', s1).
 station('Lodi T.I.B.B. (P.ta Romana FS)', m3).
+station('Lodi T.I.B.B. (P.ta Romana FS)', s9).
 station('Loreto', m1).
 station('Loreto', m2).
 station('Lotto', m1).
@@ -531,7 +532,6 @@ station('Porta Garibaldi', s7).
 station('Porta Garibaldi', s8).
 station('Porta Genova', m2).
 station('Porta Romana', m3).
-station('Porta Romana', s9).
 station('Porta Venezia', s1).
 station('Porta Venezia', s13).
 station('Porta Venezia', s2).

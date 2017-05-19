@@ -51,7 +51,7 @@ two_changes_line_path([Start,L1], [End,L2], Visited, Path):-
 path(S1, S2, Path, 0):-
         same_line_path(S1, S2, [S1], Path), !.
 path(S1, S2, Path, 1):-
-        one_change_line_path(S1, S2, [S1], Path).
+        one_change_line_path(S1, S2, [S1], Path), !.
 path(S1, S2, Path, 2):-
         two_changes_line_path(S1, S2, [S1], Path).
 
