@@ -16,44 +16,51 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-connected([X,L1], [Y,L1]) :- edge(X,Y, L1) ; edge(Y, X, L1).
+adiacent([X,L1], [Y,L1]) :- edge(X,Y, L1) ; edge(Y, X, L1).
 
-change(X,L1,L2) :-
+%% a station where I can change teh Line ...
+
+change(L1,L2, X) :-
 	station(X,L1),
         station(X,L2),
         not(L1 == L2).
+                     
+same_line_path(Node, Node, _, [Node]).                      % rule 1
+same_line_path(Start, Finish, Visited, [Start | Path]) :-   % rule 2
+     adiacent(Start, X),
+     not(member(X, Visited)),
+     same_line_path(X, Finish, [X | Visited], Path).
 
-route(Start, End, Path):-
-        station(Start,L),
-	station(End,L),
-        not(Start == End), !,
-        path([Start,L], [End,L], [[Start,L]], Path).
+one_change_line_path([Start,L1], [End,L2], Visited, Path):-
+        station(Start,L1),
+	station(End,L2),
+        change(L1,L2, X), 
+        same_line_path([Start,L1], [X,L1], [[Start,L1]|Visited], Path1),       
+        same_line_path([X,L2], [End,L2], [[X,L2]|Visited], Path2),
+        append(Path1, Path2, Path).
 
-route(Start, End, Path):-
+two_changes_line_path([Start,L1], [End,L2], Visited, Path):-
+        station(Start,L1),
+	station(End,L2),
+        change(L1,L3, X),
+        not(L2 == L3),
+        same_line_path([Start,L1], [X,L1], [[Start,L1]|Visited], Path1),
+        one_change_line_path([X,L3], [End,L2], [[X,L2]|Path1], Path2),
+        append(Path1, Path2, Path).
+
+path(S1, S2, Path, 0):-
+        same_line_path(S1, S2, [S1], Path), !.
+path(S1, S2, Path, 1):-
+        one_change_line_path(S1, S2, [S1], Path).
+path(S1, S2, Path, 2):-
+        two_changes_line_path(S1, S2, [S1], Path).
+
+route(Start, End, Path, Changes):-
         station(Start,L1),
 	station(End,L2),
         not(Start == End),
-        change(X,L1,L2),
-        path([Start,L1], [X,L1], [[Start,L1]], Path1),       
-        path([X,L2], [End,L2], [[X,L2]], Path2),
-        append(Path1, Path2, Path).
-
-path(Start, End, Path) :-
-	station(Start,L1),
-	station(End,L2),
-        not(Start == End),
-	path([Start,L1], [End,L2], [[Start,L1]], Path).
-
-path(Node, Node, _, [Node]).                      % rule 1
-path(Start, Finish, Visited, [Start | Path]) :-   % rule 2
-     connected(Start, X),
-     not(member(X, Visited)),
-     path(X, Finish, [X | Visited], Path).
+        path([Start,L1], [End,L2], Path, Changes).
 
 shortest_route(A,B,S) :-
-    findall(P, route(A,B,P), Ps),
-    maplist(prepend_length, Ps, Ls),
-    sort(Ls, [[_,S]|_]).
-
-prepend_length(P, [L,P]) :-
-    length(P,L).
+    findall([C,P], route(A,B,P,C), Ps),
+    sort(Ps, [[_,S]|_]).
