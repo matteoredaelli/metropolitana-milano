@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-swipl webserver.pl --port=9876
+swipl server.pl --port=9876

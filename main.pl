@@ -20,4 +20,4 @@
 
 main:- 
 	load_files('graph'),
-	load_files('path').
+	load_files('routes').

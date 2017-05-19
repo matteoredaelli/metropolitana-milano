@@ -15,13 +15,33 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 connected([X,L1], [Y,L1]) :- edge(X,Y, L1) ; edge(Y, X, L1).
-connected([X,L1], [X,L2]) :-
-	station(X,L1), station(X,L2), not(L1 == L2).
-        
+
+change(X,L1,L2) :-
+	station(X,L1),
+        station(X,L2),
+        not(L1 == L2).
+
+route(Start, End, Path):-
+        station(Start,L),
+	station(End,L),
+        not(Start == End), !,
+        path([Start,L], [End,L], [[Start,L]], Path).
+
+route(Start, End, Path):-
+        station(Start,L1),
+	station(End,L2),
+        not(Start == End),
+        change(X,L1,L2),
+        path([Start,L1], [X,L1], [[Start,L1]], Path1),       
+        path([X,L2], [End,L2], [[X,L2]], Path2),
+        append(Path1, Path2, Path).
+
 path(Start, End, Path) :-
 	station(Start,L1),
 	station(End,L2),
+        not(Start == End),
 	path([Start,L1], [End,L2], [[Start,L1]], Path).
 
 path(Node, Node, _, [Node]).                      % rule 1
@@ -30,8 +50,8 @@ path(Start, Finish, Visited, [Start | Path]) :-   % rule 2
      not(member(X, Visited)),
      path(X, Finish, [X | Visited], Path).
 
-shortest_path(A,B,S) :-
-    findall(P, path(A,B,P), Ps),
+shortest_route(A,B,S) :-
+    findall(P, route(A,B,P), Ps),
     maplist(prepend_length, Ps, Ls),
     sort(Ls, [[_,S]|_]).
 
