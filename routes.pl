@@ -62,5 +62,7 @@ route(Start, End, Path, Changes):-
         path([Start,L1], [End,L2], Path, Changes).
 
 shortest_route(A,B,S) :-
-    findall([C,P], route(A,B,P,C), Ps),
-    sort(Ps, [[_,S]|_]).
+        findall([C,P], route(A,B,P,C), Ps), sort(Ps, [[_,S]|_]).
+
+all_routes(A,B,Ps) :-
+        findall([C,P], route(A,B,P,C), Ps).

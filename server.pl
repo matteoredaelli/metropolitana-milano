@@ -37,6 +37,6 @@ http_get_metropolitana_milano(Request) :-
              from(From,   []),
              to(To,   [])
             ]),
-    shortest_route(From, To, Result),
+    all_routes(From, To, Result),
     prolog_to_json(json([from=From,to=To,path=Result]), Json),
     reply_json(Json).
