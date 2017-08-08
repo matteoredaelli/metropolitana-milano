@@ -23,9 +23,10 @@
 :- use_module(library(http/json)).
 :- use_module(library(http/http_json)).
 :- use_module(library(http/json_convert)).
+/*
 :- use_module(library(http/http_unix_daemon)).
 :- initialization http_daemon.
-
+*/
 :- http_handler('/metropolitana-milano', http_get_metropolitana_milano, []).
 
 :- consult('main').
