@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-swipl -s daemon.pl server.pl --port=9876
+swipl -s server.pl --port=9876
