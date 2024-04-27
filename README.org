@@ -1,14 +1,36 @@
 * Metropolitana Milano
 
-Questo repository è un esempio di utilizzo del linguaggio Prolog
-per trovare il percorso tra due stazioni metropolitane e delle linee
-suburbane di Milano.
+Sample repo using the Prolog programming language for
+searching paths between two stations of teh Milano area
+(M1, M2, M3, M4, M5 and S1, ..., S14 suburban lines)
 
-Includo anche un esempio di servizio web/rest ovviamente nn robusto da
-NON utilizzare in produzione in quanto non c'è alcuna sanificazione dei parametri
-mandati in GET
 
-ES di url
+** Sample queries
+
+swipl graph.pl routes.pl
+
+ 
+#+BEGIN_SRC prolog
+
+  %% show all results
+  set_prolog_flag(answer_write_options,[max_depth(0)]).
+
+  %% Extract all lines
+  ?- findall(X, station(_,X), L), sort(L, L1).
+  L1 = [m1,m2,m3,m4,m5,s1,s11,s13,s14,s2,s3,s4,s5,s6,s7,s8,s9].
+
+  %% Extract all stations
+  findall(X, station(X,_), L), sort(L, L1).
+  
+  %% Which stations are directed comnnected to Milano Centrale?
+  ?- findall([X,Linea], direct_connected('Centrale', X, Linea), L).
+  L = [['Caiazzo', m2], ['Repubblica', m3], ['Gioia', m2], ['Sondrio', m3]].
+
+#+END_SRC
+
+** Sample rest api
+
+In this repo you can find a sample rest service (not secured from the cyber security point of view)
 
   http://localhost:9876/metropolitana-milano?from=Olgiate&to=Linate
 
@@ -38,3 +60,4 @@ ES di url
       ]
     ...
 #+END_SRC json
+

@@ -16,7 +16,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-adiacent([X,L1], [Y,L1]) :- edge(X,Y, L1) ; edge(Y, X, L1).
+direct_connected(X, Y, L1):-
+    edge(X,Y, L1) ; edge(Y, X, L1).
+
+adiacent([X,L1], [Y,L1]) :- direct_connected(X, Y, L1).
 
 %% a station where I can change teh Line ...
 
