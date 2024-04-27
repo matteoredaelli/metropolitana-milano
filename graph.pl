@@ -61,6 +61,7 @@ edge('Cassina de\' Pecchi', 'Bussero', m2).
 edge('Castronno', 'Albizzate', s5).
 edge('Cavaria Oggiona Jerago', 'Gallarate', s5).
 edge('Cenisio', 'Gerusalemme', m5).
+edge('Centrale', 'Caiazzo', m2).
 edge('Centrale', 'Repubblica', m3).
 edge('Ceriano Laghetto-Groane', 'Cesano Maderno-Groane', s9).
 edge('Ceriano Laghetto-Solaro', 'Ceriano Laghetto-Groane', s9).
@@ -127,7 +128,7 @@ edge('Garbagnate Milanese', 'Garbagnate Parco delle Groane', s3).
 edge('Garbagnate Parco delle Groane', 'Bollate Nord', s3).
 edge('Gazzada', 'Castronno', s5).
 edge('Gerusalemme', 'Domodossola FNM', m5).
-edge('Gioia', 'Milano Centrale', m2).
+edge('Gioia', 'Centrale', m2).
 edge('Gorgonzola', 'Cascina Antonietta', m2).
 edge('Gorla', 'Turro', m1).
 edge('Greco Pirelli', 'Lambrate', s9).
@@ -170,7 +171,6 @@ edge('Meda', 'Seveso', s2).
 edge('Melegnano', 'S. Zenone al Lambro', s1).
 edge('Melzo', 'Pozzuolo Martesana', s5).
 edge('Melzo', 'Pozzuolo Martesana', s6).
-edge('Milano Centrale', 'Caiazzo', m2).
 edge('Missori', 'Crocetta', m3).
 edge('Molino Dorino', 'Pero', m1).
 edge('Molteno', 'Costa Masnaga', s7).
@@ -247,12 +247,12 @@ edge('Repubblica', 'Porta Venezia', s5).
 edge('Repubblica', 'Porta Venezia', s6).
 edge('Repubblica', 'Turati', m3).
 edge('Rho Fiera', 'Certosa', s14).
+edge('Rho Fiera', 'Certosa', s5).
+edge('Rho Fiera', 'Certosa', s6).
 edge('Rho Fiera', 'Rho', s11).
-edge('Rho FieraMilano', 'Certosa', s5).
-edge('Rho FieraMilano', 'Certosa', s6).
 edge('Rho', 'Rho Fiera', s14).
-edge('Rho', 'Rho FieraMilano', s5).
-edge('Rho', 'Rho FieraMilano', s6).
+edge('Rho', 'Rho Fiera', s5).
+edge('Rho', 'Rho Fiera', s6).
 edge('Rogoredo', 'Locate Triulzi', s13).
 edge('Rogoredo', 'S. Donato Milanese', s1).
 edge('Rogoredo', 'San Donato', m3).
@@ -395,6 +395,7 @@ station('Cassina de\' Pecchi', m2).
 station('Castronno', s5).
 station('Cavaria Oggiona Jerago', s5).
 station('Cenisio', m5).
+station('Centrale', m2).
 station('Centrale', m3).
 station('Ceriano Laghetto-Groane', s9).
 station('Ceriano Laghetto-Solaro', s9).
@@ -509,7 +510,6 @@ station('Meda', s2).
 station('Melegnano', s1).
 station('Melzo', s5).
 station('Melzo', s6).
-station('Milano Centrale', m2).
 station('Missori', m3).
 station('Molino Dorino', m1).
 station('Molteno', s7).
@@ -591,8 +591,8 @@ station('Repubblica', s6).
 station('Rho Fiera', m1).
 station('Rho Fiera', s11).
 station('Rho Fiera', s14).
-station('Rho FieraMilano', s5).
-station('Rho FieraMilano', s6).
+station('Rho Fiera', s5).
+station('Rho Fiera', s6).
 station('Rho', s11).
 station('Rho', s14).
 station('Rho', s5).

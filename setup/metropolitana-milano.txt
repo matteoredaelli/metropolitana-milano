@@ -1,6 +1,6 @@
 m1:Sesto FS (I Maggio),Sesto Rondò, Sesto Marelli, Villa S. Giovanni, Precotto, Gorla, Turro, Rovereto, Pasteur, Loreto, Lima, Venezia, Palestro, San Babila, Duomo, Cordusio, Cairoli, Cadorna, Conciliazione, Pagano, Buonarroti, Amendola Fiera, Lotto, QT8, Lampugnano, Uruguay, Bonola, San Leonardo, Molino Dorino, Pero, Rho Fiera
 m1:Pagano, Wagner, De Angeli, Gambara, Bande Nere, Primaticcio, Inganni, Bisceglie
-m2:Piazza Abbiategrasso, Famagosta, Romolo, Porta Genova, Sant'Agostino, Sant'Ambrogio, Cadorna, Lanza, Moscova, Porta Garibaldi, Gioia, Milano Centrale, Caiazzo, Loreto, Piola, Lambrate, Udine, Cimiano, Crescenzago, Cascina Gobba, Vimodrone, Cascina Burrona, Cernusco, Villa Fiorita, Cassina de' Pecchi, Bussero, Villa Pompea, Gorgonzola, Cascina Antonietta, Gessate
+m2:Piazza Abbiategrasso, Famagosta, Romolo, Porta Genova, Sant'Agostino, Sant'Ambrogio, Cadorna, Lanza, Moscova, Porta Garibaldi, Gioia, Centrale, Caiazzo, Loreto, Piola, Lambrate, Udine, Cimiano, Crescenzago, Cascina Gobba, Vimodrone, Cascina Burrona, Cernusco, Villa Fiorita, Cassina de' Pecchi, Bussero, Villa Pompea, Gorgonzola, Cascina Antonietta, Gessate
 m2:Assago Milanofiori Forum, Assago Milanofiori Nord, Famagosta
 m2:Cascina Gobba,Cologno Sud, Cologno Centro, Cologno Nord
 m3:Comasina, Affori FN, Affori centro, Dergano, Maciachini, Zara, Sondrio, Centrale, Repubblica, Turati, Montenapoleone, Duomo, Missori, Crocetta, Porta Romana, Lodi T.I.B.B. (P.ta Romana FS), Brenta, Corvetto, Porto di Mare, Rogoredo, San Donato
