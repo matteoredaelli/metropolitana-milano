@@ -1,0 +1,40 @@
+* Metropolitana Milano
+
+Questo repository è un esempio di utilizzo del linguaggio Prolog
+per trovare il percorso tra due stazioni metropolitane e delle linee
+suburbane di Milano.
+
+Includo anche un esempio di servizio web/rest ovviamente nn robusto da
+NON utilizzare in produzione in quanto non c'è alcuna sanificazione dei parametri
+mandati in GET
+
+ES di url
+
+  http://localhost:9876/metropolitana-milano?from=Olgiate&to=Linate
+
+ 
+#+BEGIN_SRC json
+  {
+  "from":"Olgiate",
+  "to":"Linate",
+  "path": [
+    [
+      2,
+      [
+	["Olgiate", "s8" ],
+	["Cernusco-Merate", "s8" ],
+	["Osnago", "s8" ],
+	["Carnate-Usmate", "s8" ],
+	["Arcore", "s8" ],
+	["Monza", "s8" ],
+	["Sesto FS (I Maggio)", "s8" ],
+	["Greco Pirelli", "s8" ],
+	["Greco Pirelli", "s9" ],
+	["Lambrate", "s9" ],
+	["Forlanini", "s9" ],
+	["Forlanini", "m4" ],
+	["Repetti", "m4" ],
+	["Linate", "m4" ]
+      ]
+    ...
+#+END_SRC json
