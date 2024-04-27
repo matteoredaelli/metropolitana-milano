@@ -68,4 +68,4 @@ shortest_route(A,B,S) :-
         findall([C,P], route(A,B,P,C), Ps), sort(Ps, [[_,S]|_]).
 
 all_routes(A,B,Ps) :-
-        findall([C,P], route(A,B,P,C), Ps).
+    findall([C,P], route(A,B,P,C), Ps).
